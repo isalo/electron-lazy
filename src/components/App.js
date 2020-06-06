@@ -1,7 +1,7 @@
 import React from 'react'
 
-import SimpleComponent from './SimpleComponent';
-//const SimpleComponent = React.lazy(() => import('./SimpleComponent'));
+//import SimpleComponent from './SimpleComponent';
+const SimpleComponent = React.lazy(() => import('./SimpleComponent'));
 
 const loading = (
 	<div className="pt-3 text-center">
